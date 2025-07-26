@@ -4,7 +4,7 @@ This repository contains two end-to-end data analysis projects using real-world 
 
 ---
 
-## Project 1: Amazon Bestsellers Analysis[Amazon1.ipynb](Amazon1.ipynb)
+## Project 1: Amazon Bestsellers Analysis [Click here](02_amazon_bestseller.ipynb)
 
 
 ### Overview
@@ -44,7 +44,7 @@ This notebook analyzes Amazon's bestselling books dataset. It covers exploratory
 
 ---
 
-## Project 2: Brazilian Retail Data Analysis [Brazial_retail.ipynb](Brazial_retail.ipynb)
+## Project 2: Brazilian Retail Data Analysis [Click here](01_Brazial_retail.ipynb)
 
 ### Overview
 This notebook examines transaction-level retail data from Brazil, providing insight into customer behavior, product trends, and business performance.
