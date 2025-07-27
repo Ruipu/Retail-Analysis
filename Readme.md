@@ -83,7 +83,7 @@ This notebook examines transaction-level retail data from Brazil, providing insi
       
 ---
 
-## Project 3: UK Online Retail Analysis [Click here](03_UK_retail.ipynb)
+## Project 3: UK Online Retail Analysis [Click here](03_UK_retail_analysis.ipynb)
 
 ### Overview
 This notebook analyzes transactional data from a UK-based online retailer, demonstrating a complete workflow from data loading and cleaning to advanced customer segmentation and product association analysis.
