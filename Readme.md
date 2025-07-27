@@ -80,6 +80,48 @@ This notebook examines transaction-level retail data from Brazil, providing insi
     - Key drivers of sales performance in the Brazilian retail sector
     - Business opportunities identified from data
     - Recommendations for further analysis or applications
+      
+---
+
+## Project 3: UK Online Retail Analysis [Click here](03_UK_retail.ipynb)
+
+### Overview
+This notebook analyzes transactional data from a UK-based online retailer, demonstrating a complete workflow from data loading and cleaning to advanced customer segmentation and product association analysis.
+
+### Data Source
+- **Dataset:** Online Retail Dataset (UCI Machine Learning Repository / Kaggle)
+- **Fields include:** Invoice number, product code and description, quantity, unit price, customer ID, country, date and time of purchase.
+
+### Main Steps
+
+1. **Data Loading and Cleaning**
+    - Imported core libraries (pandas, numpy)
+    - Loaded the dataset from CSV with the appropriate encoding
+    - Removed duplicate rows and filtered out invalid records (non-positive quantity or unit price)
+    - Dropped rows with missing CustomerID (required for customer-level analysis)
+    - Converted `InvoiceDate` to datetime format for temporal analysis
+    - After cleaning, retained 541,909 valid transactions with complete and reliable fields
+
+2. **Exploratory Data Analysis**
+    - Calculated descriptive statistics: number of unique products, customers, and top countries
+    - Assessed the time coverage of the data
+    - Visualized monthly sales trends to identify seasonality and business growth patterns
+
+3. **RFM Analysis and Customer Segmentation**
+    - Computed Recency, Frequency, and Monetary (RFM) metrics for each customer
+    - Segmented customers into groups based on quartiles for each metric
+    - Generated RFM scores for targeted marketing and customer value assessment
+    - Applied KMeans clustering to RFM features to reveal key customer segments
+
+4. **Market Basket Analysis**
+    - Transformed transaction data into basket format
+    - Used the Apriori algorithm and association rules to uncover frequently co-purchased products
+    - Identified actionable product bundles and cross-selling opportunities
+
+5. **Results & Insights**
+    - Revealed strong seasonal sales effects and key sales periods
+    - Distinguished between high-value, loyal customers and less active segments
+    - Highlighted product pairs with high lift for promotional campaigns
 
 ---
 
@@ -102,5 +144,5 @@ Please refer to the links or sources provided in each notebook to download the o
 
 ## Contact
 
-If you have any questions, suggestions, or want to collaborate, please open an issue or contact me at [your-email@example.com].
+If you have any questions, suggestions, or want to collaborate, please open an issue or contact me at rgao4@tulane.edu
 
