@@ -88,6 +88,8 @@ This notebook examines transaction-level retail data from Brazil, providing insi
 ### Overview
 This notebook analyzes transactional data from a UK-based online retailer, demonstrating a complete workflow from data loading and cleaning to advanced customer segmentation and product association analysis.
 
+[Click here for SQL version of UK_retail project](UK_retial_SQL.ipynb)
+
 ### Data Source
 - **Dataset:** Online Retail Dataset (UCI Machine Learning Repository / Kaggle)
 - **Fields include:** Invoice number, product code and description, quantity, unit price, customer ID, country, date and time of purchase.
