@@ -9,7 +9,7 @@ This repository contains two end-to-end data analysis projects using real-world 
 
 ### Overview
 This notebook analyzes Amazon's bestselling books dataset. It covers exploratory data analysis (EDA), feature engineering, data visualization, and predictive modeling for book popularity.
-[Click here for SQL-Based Amazon Bestseller Analysis](Amazon_bestseller_SQL.ipynb)
+[Click here for SQL-Based Amazon Bestseller Analysis](Amazon_best_selling_SQL.ipynb)
 ### Data Source
 - **Dataset:** Amazon Best Sellers (sourced from Kaggle or public datasets)
 - **Fields include:** Book name, author, user ratings, reviews, price, year, and genre.
