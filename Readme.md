@@ -9,7 +9,7 @@ This repository contains two end-to-end data analysis projects using real-world 
 
 ### Overview
 This notebook analyzes Amazon's bestselling books dataset. It covers exploratory data analysis (EDA), feature engineering, data visualization, and predictive modeling for book popularity.
-
+[Click here for SQL-Based Amazon Bestseller Analysis](Amazon_bestseller_SQL.ipynb)
 ### Data Source
 - **Dataset:** Amazon Best Sellers (sourced from Kaggle or public datasets)
 - **Fields include:** Book name, author, user ratings, reviews, price, year, and genre.
@@ -88,7 +88,7 @@ This notebook examines transaction-level retail data from Brazil, providing insi
 ### Overview
 This notebook analyzes transactional data from a UK-based online retailer, demonstrating a complete workflow from data loading and cleaning to advanced customer segmentation and product association analysis.
 
-[Click here for SQL version of UK_retail project](UK_retail_SQL.ipynb)
+[Click here for SQL-Based UK Retail Analysis](UK_retail_SQL.ipynb)
 
 ### Data Source
 - **Dataset:** Online Retail Dataset (UCI Machine Learning Repository / Kaggle)
