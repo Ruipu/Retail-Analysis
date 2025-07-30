@@ -1,6 +1,6 @@
 # Retail Data Analysis Projects
 
-This repository contains two end-to-end data analysis projects using real-world retail datasets. The goal is to demonstrate practical data science workflows, from data cleaning and visualization to machine learning, in retail and e-commerce contexts.
+This repository contains three end-to-end data analysis projects using real-world retail datasets. The goal is to demonstrate practical data science workflows, from data cleaning and visualization to machine learning, in retail and e-commerce contexts.
 
 ---
 
